@@ -2,8 +2,8 @@
 Program which detects facial landmarks using Dlib Python package and applies blush, lipstick and eye liner. Used PIL library tools such as gaussian blur, smoothening and interpolation have been used to achieve this
 
 ## Application of Makeup
-For the application of eyeliner and lipstick, the Visage [3] package of Python has been
-used. This package includes the Dlib library [4] to detect the facial landmarks and then,
+For the application of eyeliner and lipstick, the Visage package of Python has been
+used. This package includes the Dlib library to detect the facial landmarks and then,
 smoothens the application of color. This package was not directly compatible with
 Python3. I have modified the files - apply_makeup.py and detect_features.py to make
 this work.
