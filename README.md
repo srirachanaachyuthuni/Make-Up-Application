@@ -7,10 +7,12 @@ used. This package includes the Dlib library to detect the facial landmarks and 
 smoothens the application of color. This package was not directly compatible with
 Python3. I have modified the files - apply_makeup.py and detect_features.py to make
 this work.
+
 For the application of blush, in the same apply_makeup.py and detect_features.py file, I
 have made use of the dlib library to calculate the landmark on the cheek Then, I have
 used PIL library’s Image, ImageFilter, ImageEnhance and ImageDraw to draw, sharpen,
 smoothen and blur the blush.
+
 After calling the download_image() method, on each of the images downloaded, the
 apply_eye_liner(), apply_lipstick() and apply_blush() functions are called respectively
 from the same script.
